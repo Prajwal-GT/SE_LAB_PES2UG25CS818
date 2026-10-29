@@ -108,3 +108,5 @@ def test_watch_due_to_missed_payment():
 
 def test_good_branch():
     assert card_status(30, 0, False) == "good"
+
+# Branch coverage tests validate decision outcomes.
