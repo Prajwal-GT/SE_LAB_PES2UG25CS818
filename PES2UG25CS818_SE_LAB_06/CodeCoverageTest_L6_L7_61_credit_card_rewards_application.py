@@ -127,3 +127,5 @@ def test_exactly_90_percent_is_not_over_limit():
 
 def test_frozen_takes_priority():
     assert card_status(100, 5, True) == "frozen"
+
+# Code coverage tests validate application statements.
